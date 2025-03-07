@@ -1,6 +1,6 @@
 public class Palind {
     public static void main(String[] args) {
-        String original = "madam"; // Example input, change as needed
+        String original = "madam"; 
         
         String reversed = new StringBuilder(original).reverse().toString();
         
