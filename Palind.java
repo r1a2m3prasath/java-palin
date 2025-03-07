@@ -1,11 +1,6 @@
-import java.util.Scanner;
-
 public class Palind {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String original = scanner.nextLine();
-        scanner.close();
+        String original = "madam"; // Example input, change as needed
         
         String reversed = new StringBuilder(original).reverse().toString();
         
@@ -16,3 +11,4 @@ public class Palind {
         }
     }
 }
+
